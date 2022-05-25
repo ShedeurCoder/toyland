@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Toyland</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/seal.png" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#main" class="skipnav">Skip Navigation</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+            <a href="/" class="navbar-brand"><img src="images/seal.png" alt="Toyland" class="navSeal"></a>
+            <button class="navbar-toggler" type='button' data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="elections" class="nav-link">Elections</a>
+                    </li>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="toylandDropdown">
+                            About Toyland
+                        </a>
+                        <div class="dropdown-menu text-light bg-secondary" aria-labelledby="toylandDropdown">
+                            <a href="visit" class="dropdown-item active">Visit Toyland</a>
+                            <a href="history" class="dropdown-item">History</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="statesDropdown">
+                            States and Territories
+                        </a>
+                          <div class="dropdown-menu bg-secondary" aria-labelledby="statesDropdown">
+                            <a href="states" class="dropdown-item">All states</a>
+                            <a class="dropdown-item" href="tcs">Toy Central State</a>
+                            <a class="dropdown-item" href="legoland">Legoland</a>
+                            <a class="dropdown-item" href="small_town">Small Town</a>
+                            <a class="dropdown-item" href="carland">Carland</a>
+                            <a class="dropdown-item" href="tubtoyland">Tubtoyland</a>
+                            <a class="dropdown-item" href="dinoville">Dinoville</a>
+                            <a class="dropdown-item" href="stuffed_valley">Stuffed Valley</a>
+                            <a class="dropdown-item" href="kj_island">Kinder Joy Island</a>
+                            <a class="dropdown-item" href="knc">Kuishi Niku Cheka</a>
+                            <a class="dropdown-item" href="whodathunk">Whodathunk</a>
+                            <a class="dropdown-item" href="moano">Moano</a>
+                            <a class="dropdown-item" href="jorgenberg">Jorgenberg (archive)</a>
+                          </div>
+                    </div>
+                    <li class="nav-item">
+                        <a href="taxes" class="nav-link">Taxes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="jobs" class="nav-link">Jobs/officials</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="my-4">
+        <div class="text-center">
+            <h1>VISIT TOYLAND</h1>
+            <img src="images/beach.jpg" alt="Toyland beach" style="width: 100%" class="col-md-6">
+            <div class="container mt-2">
+                <div class="row mt-5">
+                    <div class="col-md-6 px-2 pt-1">
+                        <h2>Get a Visa <i class="fas fa-passport faIcon"></i></h2>
+                        <p>Go to your nearest embassy's website and contact them that you are going to apply for a visitor's visa. A visitor's visa costs about $50. It takes about 1-2 weeks to get your visa after being approved. A visa lasts for 30 days, and you can extend it by paying $15 every extra 14 days.</p>
+                    </div>
+                    <div class="col-md-6 px-2 pt-1">
+                        <h2>Research destinations <i class="fas fa-map-marker-alt faIcon"></i></h2>
+                        <p>Research the best destinations to be in Toyland. My personal recomendations are Toy Central City, Legoland City and its Giant Chess Sculpture, Jorgenberg and the Jorgen Wurtz Museum, Small Town and the Small Town Museum, and much more! Feel free to explore around the country!</p>
+                    </div>
+                    <div class="col-md-6 px-2 pt-1">
+                        <h2>Book a flight <i class="fas fa-plane faIcon"></i></h2>
+                        <p>Now that you know your vacation plan, book a flight! There are tons of connecting flights and straight flights to all around the world powered by our national airline, Happy Day Airlines. Other airlines also give connecting flights to Toyland. You will most likely land in Toy Central City International Airport</p>
+                    </div>
+                    <div class="col-md-6 px-2 pt-1">
+                        <h2>Explore <i class="fas fa-compass faIcon"></i></h2>
+                        <p>Now that you have landed safely in Toyland, EXPLORE! We are a warm and welcoming country, and we would love you touring the country. Whether it be a small tour around Toy Central City, or a nationwide tour, it is our honor to guide you in your vacation. Have fun travelling!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="p-4">
+        <div class="float-right">
+            <button class="darkModeToggle btn btn-secondary" onclick="darkModeFunction()">Dark mode</button>
+            <a class="backtotop m-2" href='#'>
+                <span class="sr-only">Back to top</span>
+                <span class="fa fa-arrow-up"></span>
+            </a>
+        </div>
+        <p class="footer-text">
+            &copy;Toyland Government &middot;
+            <a href="/">Home</a> &middot;
+            <a href="elections">Elections</a> &middot;
+            <a href="states">States</a> &middot;
+            <a href="taxes">Taxes</a> &middot;
+            <a href="jobs">Offical jobs</a>
+        </p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>

@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: black;
+}
+.dark-mode {
+    color: rgb(211, 211, 211);
+    background-color: #1a1d1d;
+}
+.skipnav {
+    position: absolute;
+    transform: translateY(-150%);
+    z-index: 50;
+    background-color: #000;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1%;
+}
+.skipnav:focus {
+    transform: translateY(0);
+}
+p {
+    font-size: 1.3rem;
+}
+.navSeal {
+    height: 75px;
+}
+.flagHome {
+    height: 100px;
+}
+.contactHome ul {
+    font-size: 1.5rem;
+}
+footer {
+    background-color: #000;
+    color: rgb(211, 211, 211);
+}
+.footer-text a {
+    color: rgb(211, 211, 211, 0.8);
+}
+.footer-text a:hover {
+    color: rgb(211, 211, 211);
+}
+.backtotop {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255, 0.7);
+}
+.candidateImg {
+    width: 100%;
+}
+.electionGraph {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    padding: 1%;
+}
+.electionGraph .col-xs-4 {
+    background-color: green;
+    width: 20%;
+    margin-inline: 2%;
+    color:white;
+}
+.de-marcs-g {
+    height: 30%;
+}
+.wurtz-g {
+    height: 70%;
+}
+.duck-g {
+    height: 100%;
+}
+.flagState {
+    width: 100%;
+}
+.faIcon {
+    font-size: 1.5rem;
+}
+.history p {
+    font-size: 1.1rem;
+}
+.officials li {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+.table {
+    width: fit-content;
+    margin-inline: auto;
+}
+.dark-mode .table {
+    color: white;
+    border: 1px white dashed;
+}
+.bg-danger {
+    color: black;
+}
+@media only screen and (min-width: 950px) {
+    .nav-link {
+        font-size: 1.3rem;
+    }
+}

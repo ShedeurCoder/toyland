@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Toyland</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/seal.png" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#main" class="skipnav">Skip Navigation</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+            <a href="/" class="navbar-brand"><img src="images/seal.png" alt="Toyland" class="navSeal"></a>
+            <button class="navbar-toggler" type='button' data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="elections" class="nav-link">Elections</a>
+                    </li>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="toylandDropdown">
+                            About Toyland
+                        </a>
+                        <div class="dropdown-menu text-light bg-secondary" aria-labelledby="toylandDropdown">
+                            <a href="visit.html" class="dropdown-item">Visit Toyland</a>
+                            <a href="history.html" class="dropdown-item">History</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="statesDropdown">
+                            States and Territories
+                        </a>
+                          <div class="dropdown-menu bg-secondary" aria-labelledby="statesDropdown">
+                            <a href="states.html" class="dropdown-item">All states</a>
+                            <a class="dropdown-item active" href="tcs.html">Toy Central State</a>
+                            <a class="dropdown-item" href="legoland.html">Legoland</a>
+                            <a class="dropdown-item" href="small_town.html">Small Town</a>
+                            <a class="dropdown-item" href="carland.html">Carland</a>
+                            <a class="dropdown-item" href="tubtoyland.html">Tubtoyland</a>
+                            <a class="dropdown-item" href="dinoville.html">Dinoville</a>
+                            <a class="dropdown-item" href="stuffed_valley.html">Stuffed Valley</a>
+                            <a class="dropdown-item" href="kj_island.html">Kinder Joy Island</a>
+                            <a class="dropdown-item" href="knc.html">Kuishi Niku Cheka</a>
+                            <a class="dropdown-item" href="whodathunk.html">Whodathunk</a>
+                            <a class="dropdown-item" href="moano.html">Moano</a>
+                            <a class="dropdown-item" href="jorgenberg.html">Jorgenberg (archive)</a>
+                          </div>
+                    </div>
+                    <li class="nav-item">
+                        <a href="taxes.html" class="nav-link">Taxes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="jobs.html" class="nav-link">Jobs/officials</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="m-3">
+        <div class="text-center">
+            <img src="images/flags/toy_central_state.jpg" alt="Flag of Toy Central State" class="flagState col-md-6 col-lg-4">
+            <h1>Toy Central State</h1>
+            <div class="py-2">
+                <h2>About Toy Central State</h2>
+                <p class="text-left">Toy Central State is home to the capital of Toyland, Toy Central City. It has a population of over 20 million people, making up over 20% of the entire Toyland population. The state is known for its beautiful works of art on the streets, friendly people, amazing rural scenery, and having an economy larger than Colombia. We hope you would like to visit us, as we are warm and welcome to visitors and tourists.</p>
+                <p class="text-right">The Toy Central State flag has a huge inspiration from the Toyland national flag. The green diagonal line and the blue triangle all mean the same as the Toyland flag, but the three stripes symbolising us being the third state to join the union against Kuishi Niku Cheka. The star in the middle is to represent that we are the nation's capital, and that we are the geographical center of the Toyland main island.</p>
+            </div>
+            <div class="py-2">
+                <h2>State officials</h2>
+                <p>Governor: Helma Brun <br>
+                Toy Central City Mayor: Jean-Claude Leverenz</p>
+            </div>
+
+        </div>
+    </main>
+    <footer class="p-4">
+        <div class="float-right">
+            <button class="darkModeToggle btn btn-secondary" onclick="darkModeFunction()">Dark mode</button>
+            <a class="backtotop m-2" href='#'>
+                <span class="sr-only">Back to top</span>
+                <span class="fa fa-arrow-up"></span>
+            </a>
+        </div>
+        <p class="footer-text">
+            &copy;Toyland Government &middot;
+            <a href="/">Home</a> &middot;
+            <a href="elections.html">Elections</a> &middot;
+            <a href="states.html">States</a> &middot;
+            <a href="taxes.html">Taxes</a> &middot;
+            <a href="jobs.html">Offical jobs</a>
+        </p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>

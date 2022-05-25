@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Toyland</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/seal.png" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#main" class="skipnav">Skip Navigation</a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
+            <a href="/" class="navbar-brand"><img src="images/seal.png" alt="Toyland" class="navSeal"></a>
+            <button class="navbar-toggler" type='button' data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="elections" class="nav-link">Elections</a>
+                    </li>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="toylandDropdown">
+                            About Toyland
+                        </a>
+                        <div class="dropdown-menu text-light bg-secondary" aria-labelledby="toylandDropdown">
+                            <a href="visit" class="dropdown-item">Visit Toyland</a>
+                            <a href="history" class="dropdown-item">History</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="statesDropdown">
+                            States and Territories
+                        </a>
+                          <div class="dropdown-menu bg-secondary" aria-labelledby="statesDropdown">
+                            <a href="states" class="dropdown-item">All states</a>
+                            <a class="dropdown-item" href="tcs">Toy Central State</a>
+                            <a class="dropdown-item" href="legoland">Legoland</a>
+                            <a class="dropdown-item active" href="small_town">Small Town</a>
+                            <a class="dropdown-item" href="carland">Carland</a>
+                            <a class="dropdown-item" href="tubtoyland">Tubtoyland</a>
+                            <a class="dropdown-item" href="dinoville">Dinoville</a>
+                            <a class="dropdown-item" href="stuffed_valley">Stuffed Valley</a>
+                            <a class="dropdown-item" href="kj_island">Kinder Joy Island</a>
+                            <a class="dropdown-item" href="knc">Kuishi Niku Cheka</a>
+                            <a class="dropdown-item" href="whodathunk">Whodathunk</a>
+                            <a class="dropdown-item" href="moano">Moano</a>
+                            <a class="dropdown-item" href="jorgenberg">Jorgenberg (archive)</a>
+                          </div>
+                    </div>
+                    <li class="nav-item">
+                        <a href="taxes" class="nav-link">Taxes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="jobs" class="nav-link">Jobs/officials</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="m-3">
+        <div class="text-center">
+            <img src="images/flags/small_town.jpg" alt="Small town flag" class="col-md-6 col-lg-4">
+            <h1>Small Town</h1>
+            <div class="py-2">
+                <h2>About Small Town</h2>
+                <p class="text-left">Small Town is the oldest state to ever join the nation. Small Towny has the biggest international trading port in all of Toyland. The state is best known for its museums, as they are of immense historical value. Small Town also owns the biggest portion of the gold industry in all of Asia. The richest man in Toyland, Charlie Brown, lives here. The state currently has the best public education in all of Asia.</p>
+                <p class="text-right">The Small Town flag is the oldest flag that is currently in use. This flag was the very first Toyland flag when we were getting independence from Kuishi. Although this flag only lasted a few months, Small Town kept it as their own flag.</p>
+            </div>
+            <div class="py-2">
+                <h2>State officials</h2>
+                <p>Governor: Christian Jepson<br>
+                Small Town City Mayor: Rachael Mayes</p>
+            </div>
+        </div>
+    </main>
+    <footer class="p-4">
+        <div class="float-right">
+            <button class="darkModeToggle btn btn-secondary" onclick="darkModeFunction()">Dark mode</button>
+            <a class="backtotop m-2" href='#'>
+                <span class="sr-only">Back to top</span>
+                <span class="fa fa-arrow-up"></span>
+            </a>
+        </div>
+        <p class="footer-text">
+            &copy;Toyland Government &middot;
+            <a href="/">Home</a> &middot;
+            <a href="elections">Elections</a> &middot;
+            <a href="states">States</a> &middot;
+            <a href="taxes">Taxes</a> &middot;
+            <a href="jobs">Offical jobs</a>
+        </p>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
